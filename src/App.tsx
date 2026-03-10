@@ -277,7 +277,7 @@ export default function App() {
                 <ParallaxImage
                   src="https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&fit=crop&q=80"
                   alt="Event Hall"
-                  className="relative z-10 w-full h-[600px] rounded-sm grayscale-[20%]"
+                  className="relative z-10 w-full h-[320px] sm:h-[420px] md:h-[520px] lg:h-[600px] rounded-sm grayscale-[20%]"
                 />
                 <div className="absolute bottom-8 -right-8 z-20 bg-royal-900 border border-white/10 p-8 rounded-sm shadow-2xl hidden md:block">
                   <div className="text-5xl font-serif text-gold-400 mb-2">
@@ -405,7 +405,7 @@ export default function App() {
               },
             ].map((event, i) => (
               <FadeIn key={i} delay={i * 0.1}>
-                <div className="group relative overflow-hidden rounded-sm border border-white/5 bg-royal-950/50 hover:border-gold-500/30 transition-all duration-500 h-[280px]">
+                <div className="group relative overflow-hidden rounded-sm border border-white/5 bg-royal-950/50 hover:border-gold-500/30 transition-all duration-500 h-[260px] sm:h-[280px] lg:h-[300px]">
                   <img 
                     src={event.image} 
                     alt={event.title} 
